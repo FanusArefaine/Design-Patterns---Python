@@ -20,6 +20,9 @@ class Book:
             mylist.append('\n')
         return ''.join(mylist)
 
+
+
+
 class Prototype:
     def __init__(self):
         self.objects = dict()
@@ -49,7 +52,7 @@ def main():
     prototype = Prototype()
     cid = 'k&r-first'
     prototype.register(cid, b1)
-    b2 = prototype.clone(cid, name='The C Programming Language \
+    b2 = prototype.clone(cid, name='The C Programming Language\
     (ANSI)', price=48.99, length=274, \
     publication_date='1988-04-01', edition=2)
 
